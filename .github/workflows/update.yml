@@ -1,0 +1,31 @@
+name: Update ETF dashboard
+on:
+  schedule:
+    # Mon/Wed/Fri 11:00 Korea = 02:00 UTC (05:00 Saudi)
+    - cron: '0 2 * * 1,3,5'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: etf-update
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Collect and append snapshot
+        run: python scripts/update.py
+      - name: Commit if changed
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add briefings.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update ETF briefing data"
+            git push
+          fi
