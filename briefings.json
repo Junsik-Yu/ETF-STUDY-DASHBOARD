@@ -1,5 +1,190 @@
 [
   {
+    "date": "2026-11-25",
+    "title": "2026-11-25 ETF 시장 점검",
+    "summary": "ETF 10종 중 7종의 비공식 일별 시세 확인. 미확인 수치는 표시하지 않습니다. 뉴스 헤드라인은 검증된 인과관계가 아닙니다.",
+    "topics": [
+      "ETF",
+      "금리",
+      "환율",
+      "AI",
+      "반도체"
+    ],
+    "study": "오늘의 개념: 서로 다른 시장의 종가와 환율 기준시각이 다르면 ETF 수익률을 직접 비교하면 안 됩니다.",
+    "sourceStatus": "Yahoo Finance 비공식 차트 API·Google News RSS. 지연·누락 가능. 투자판단 전 거래소/운용사 확인 필요.",
+    "etfs": [
+      {
+        "name": "KODEX 미국AI소프트웨어TOP10",
+        "market": "KR",
+        "symbol": null,
+        "status": "symbol_unverified",
+        "price": null,
+        "change_pct": null
+      },
+      {
+        "name": "TIGER 미국S&P500",
+        "market": "KR",
+        "symbol": "360750.KS",
+        "status": "unofficial_yahoo_daily",
+        "price": 23845.0,
+        "change_pct": -1.222,
+        "asof": "2026-11-25",
+        "source_url": "https://finance.yahoo.com/quote/360750.KS/history/"
+      },
+      {
+        "name": "KODEX 미국S&P500",
+        "market": "KR",
+        "symbol": "379800.KS",
+        "status": "unofficial_yahoo_daily",
+        "price": 21620.0,
+        "change_pct": -1.188,
+        "asof": "2026-11-25",
+        "source_url": "https://finance.yahoo.com/quote/379800.KS/history/"
+      },
+      {
+        "name": "KODEX 미국나스닥100",
+        "market": "KR",
+        "symbol": "379810.KS",
+        "status": "unofficial_yahoo_daily",
+        "price": 23030.0,
+        "change_pct": -3.072,
+        "asof": "2026-11-25",
+        "source_url": "https://finance.yahoo.com/quote/379810.KS/history/"
+      },
+      {
+        "name": "KODEX 미국반도체",
+        "market": "KR",
+        "symbol": null,
+        "status": "symbol_unverified",
+        "price": null,
+        "change_pct": null
+      },
+      {
+        "name": "KODEX 미국AI전력핵심인프라",
+        "market": "KR",
+        "symbol": null,
+        "status": "symbol_unverified",
+        "price": null,
+        "change_pct": null
+      },
+      {
+        "name": "TIGER 미국필라델피아반도체나스닥",
+        "market": "KR",
+        "symbol": "381180.KS",
+        "status": "unofficial_yahoo_daily",
+        "price": 30170.0,
+        "change_pct": -9.017,
+        "asof": "2026-11-25",
+        "source_url": "https://finance.yahoo.com/quote/381180.KS/history/"
+      },
+      {
+        "name": "QQQ",
+        "market": "US",
+        "symbol": "QQQ",
+        "status": "unofficial_yahoo_daily",
+        "price": 638.1,
+        "change_pct": -1.986,
+        "asof": "2026-11-24",
+        "source_url": "https://finance.yahoo.com/quote/QQQ/history/"
+      },
+      {
+        "name": "SCHD",
+        "market": "US",
+        "symbol": "SCHD",
+        "status": "unofficial_yahoo_daily",
+        "price": 34.89,
+        "change_pct": 1.454,
+        "asof": "2026-11-24",
+        "source_url": "https://finance.yahoo.com/quote/SCHD/history/"
+      },
+      {
+        "name": "VIG",
+        "market": "US",
+        "symbol": "VIG",
+        "status": "unofficial_yahoo_daily",
+        "price": 242.11,
+        "change_pct": 0.536,
+        "asof": "2026-11-24",
+        "source_url": "https://finance.yahoo.com/quote/VIG/history/"
+      }
+    ],
+    "indices": [
+      {
+        "name": "S&P 500",
+        "symbol": "^GSPC",
+        "status": "unofficial_yahoo_daily",
+        "price": 7201.0898,
+        "change_pct": -0.499,
+        "asof": "2026-11-24",
+        "source_url": "https://finance.yahoo.com/quote/%5EGSPC/history/"
+      },
+      {
+        "name": "Nasdaq",
+        "symbol": "^IXIC",
+        "status": "unofficial_yahoo_daily",
+        "price": 23733.5352,
+        "change_pct": -1.478,
+        "asof": "2026-11-24",
+        "source_url": "https://finance.yahoo.com/quote/%5EIXIC/history/"
+      },
+      {
+        "name": "SOX",
+        "symbol": "^SOX",
+        "status": "unofficial_yahoo_daily",
+        "price": 8832.501,
+        "change_pct": -7.88,
+        "asof": "2026-11-24",
+        "source_url": "https://finance.yahoo.com/quote/%5ESOX/history/"
+      },
+      {
+        "name": "US 10Y yield",
+        "symbol": "^TNX",
+        "status": "unofficial_yahoo_daily",
+        "price": 4.904,
+        "change_pct": -0.285,
+        "asof": "2026-11-24",
+        "source_url": "https://finance.yahoo.com/quote/%5ETNX/history/"
+      },
+      {
+        "name": "USD/KRW",
+        "symbol": "KRW=X",
+        "status": "unofficial_yahoo_daily",
+        "price": 1342.41,
+        "change_pct": 0.104,
+        "asof": "2026-11-25",
+        "source_url": "https://finance.yahoo.com/quote/KRW%3DX/history/"
+      }
+    ],
+    "news": [
+      {
+        "title": "Is Jensen Huang Worth $2 Trillion? Trust Is the AI Industry’s Most Valuable Asset - semivision",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9iQXRzdE04RkVwWVE5N2F6Q1NMUEF6SEs2eEV2U2ozMk9VNmt0SXBqSjdkdXBuTGgxS19yZkp4aVN6ejYtUXBocmRpcFRsYUFGeWt5SmVvLVlTWERVbTJQN2tkY3h1RDNHaEViQjhNcG5ocV9leFdEVk1BZlNZUQ?oc=5",
+        "published": "Wed, 25 Nov 2026 01:22:31 GMT"
+      },
+      {
+        "title": "Huang controversy: Geopolitics of AI race | Daily Sabah - Daily Sabah",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNjNiVWF0eDMtS0ljN3g4WnJHN2FOa0l3UWJGWVVLWk16aGs0U3AxYnQwSFFRQ3pwb2lNRWRBV09xNkpHcXVHUG9XUlZLT01DNWgxSHg1QVEzLXZjcklDYm5qamh3TUZVZ04wYU9veDFfcVNvYnhMTm9mYzU2c3pMV2tiY3E5b3c4M2NYRWhB0gGOAUFVX3lxTE02M2JVYXR4My1LSWM3eDhackc3YU5rSXdRYkZZVUtaTXpoazRTcDFidDBIUVFDenBvaU1FZEFXT3E2SkdxdUdQb1dSVktPTUM1aDFIeDVBUTMtdmNySUNibmpqaHdNRlVnTjBhT294MV9xU29ieExOb2ZjNTZzekxXa2JjcTlvdzgzY1hFaEE?oc=5",
+        "published": "Tue, 24 Nov 2026 21:05:00 GMT"
+      },
+      {
+        "title": "Jensen Huang Return to Nvidia: Positive for Even the Broader AI Ecosystem - Benzinga",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPbnlma3IwYURoZ2VXQ1dKbjZIU0YxZzlnR0pvN1U4ajRCb0t4NWVyVHVFaUczcFR4RlRjbS1MTTg0TUFFSkNzU2JObHphakh6SGRnalk4bDZFSTBJNzRib2o1Y1lOVTF3SFByaUJKQjVjd3BKQTItWnY3UDJ0Yk44bDFQNnRrRWdrSUl5LVk5aFRnaldxUDVJaDdfQm4wWWwySmNyQlBLMFZNOE1mQUdkX1ladVRrazQ0eHdyNFV0blVqMkxibUl6RkZCWXZWUG9wU1VPVTVHRHR4Y2c?oc=5",
+        "published": "Tue, 24 Nov 2026 20:12:43 GMT"
+      },
+      {
+        "title": "Jensen Huang Is Back at Nvidia, but Wall Street Is Already Getting Nervous Again - 24/7 Wall St.",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQRGJWUFNUbDRReTVpZE5sTGY3SXZtaXpyb2NnWVk5V3dLSDFXdnVhM1JNVmJzUk5YMUp6clNPYV8wejRuTVRpb2pMV0lZNEdGZ3Mtc21Sc1dYV2dZSFlRcElFUTNIZGJJcVlNRzB2dWUwR29KUWNCZUdXMEg5RGFFcHo4UUx6TjNiNl9oZ2Zkd2ZpQlF2NnVjU0lZdl9HR3p0cl8wN3ZiTWtxTGp4bFAtSnpjQ2M4dE9fcjVNZk1wdmY?oc=5",
+        "published": "Tue, 24 Nov 2026 16:12:00 GMT"
+      },
+      {
+        "title": "Can Earnings Beat Change The Case For Navitas Stock - Yahoo Finance",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeUdaZF8zMzV0akJvLWxKTm9lT1Z0TERwQ3J1YktTN1VKeFJCMUoySk1wOFZQOXRFbWszMzRSYldUWFlWYkQ0NjFMUXA2ZVJtTWFSSnNSSTlIYmRhV2g0STdCeTRCckdBTks0b0d4dktvY3RCTWdwYXFDRVJZVjdBdjlvQzhFdWhYdW1rMmRPNTFEeHhEdXctS1lXcUxMdWs?oc=5",
+        "published": "Tue, 24 Nov 2026 12:15:47 GMT"
+      }
+    ],
+    "generated_at": "2026-11-25T02:46:48.734712+00:00"
+  },
+  {
     "date": "2026-11-23",
     "title": "2026-11-23 ETF 시장 점검",
     "summary": "ETF 10종 중 7종의 비공식 일별 시세 확인. 미확인 수치는 표시하지 않습니다. 뉴스 헤드라인은 검증된 인과관계가 아닙니다.",
