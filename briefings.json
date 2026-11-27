@@ -1,5 +1,190 @@
 [
   {
+    "date": "2026-11-27",
+    "title": "2026-11-27 ETF 시장 점검",
+    "summary": "ETF 10종 중 7종의 비공식 일별 시세 확인. 미확인 수치는 표시하지 않습니다. 뉴스 헤드라인은 검증된 인과관계가 아닙니다.",
+    "topics": [
+      "ETF",
+      "금리",
+      "환율",
+      "AI",
+      "반도체"
+    ],
+    "study": "오늘의 개념: 서로 다른 시장의 종가와 환율 기준시각이 다르면 ETF 수익률을 직접 비교하면 안 됩니다.",
+    "sourceStatus": "Yahoo Finance 비공식 차트 API·Google News RSS. 지연·누락 가능. 투자판단 전 거래소/운용사 확인 필요.",
+    "etfs": [
+      {
+        "name": "KODEX 미국AI소프트웨어TOP10",
+        "market": "KR",
+        "symbol": null,
+        "status": "symbol_unverified",
+        "price": null,
+        "change_pct": null
+      },
+      {
+        "name": "TIGER 미국S&P500",
+        "market": "KR",
+        "symbol": "360750.KS",
+        "status": "unofficial_yahoo_daily",
+        "price": 24220.0,
+        "change_pct": 0.875,
+        "asof": "2026-11-27",
+        "source_url": "https://finance.yahoo.com/quote/360750.KS/history/"
+      },
+      {
+        "name": "KODEX 미국S&P500",
+        "market": "KR",
+        "symbol": "379800.KS",
+        "status": "unofficial_yahoo_daily",
+        "price": 21960.0,
+        "change_pct": 0.942,
+        "asof": "2026-11-27",
+        "source_url": "https://finance.yahoo.com/quote/379800.KS/history/"
+      },
+      {
+        "name": "KODEX 미국나스닥100",
+        "market": "KR",
+        "symbol": "379810.KS",
+        "status": "unofficial_yahoo_daily",
+        "price": 23555.0,
+        "change_pct": 1.334,
+        "asof": "2026-11-27",
+        "source_url": "https://finance.yahoo.com/quote/379810.KS/history/"
+      },
+      {
+        "name": "KODEX 미국반도체",
+        "market": "KR",
+        "symbol": null,
+        "status": "symbol_unverified",
+        "price": null,
+        "change_pct": null
+      },
+      {
+        "name": "KODEX 미국AI전력핵심인프라",
+        "market": "KR",
+        "symbol": null,
+        "status": "symbol_unverified",
+        "price": null,
+        "change_pct": null
+      },
+      {
+        "name": "TIGER 미국필라델피아반도체나스닥",
+        "market": "KR",
+        "symbol": "381180.KS",
+        "status": "unofficial_yahoo_daily",
+        "price": 31685.0,
+        "change_pct": 2.59,
+        "asof": "2026-11-27",
+        "source_url": "https://finance.yahoo.com/quote/381180.KS/history/"
+      },
+      {
+        "name": "QQQ",
+        "market": "US",
+        "symbol": "QQQ",
+        "status": "unofficial_yahoo_daily",
+        "price": 633.93,
+        "change_pct": -0.653,
+        "asof": "2026-11-25",
+        "source_url": "https://finance.yahoo.com/quote/QQQ/history/"
+      },
+      {
+        "name": "SCHD",
+        "market": "US",
+        "symbol": "SCHD",
+        "status": "unofficial_yahoo_daily",
+        "price": 35.29,
+        "change_pct": 1.146,
+        "asof": "2026-11-25",
+        "source_url": "https://finance.yahoo.com/quote/SCHD/history/"
+      },
+      {
+        "name": "VIG",
+        "market": "US",
+        "symbol": "VIG",
+        "status": "unofficial_yahoo_daily",
+        "price": 243.03,
+        "change_pct": 0.38,
+        "asof": "2026-11-25",
+        "source_url": "https://finance.yahoo.com/quote/VIG/history/"
+      }
+    ],
+    "indices": [
+      {
+        "name": "S&P 500",
+        "symbol": "^GSPC",
+        "status": "unofficial_yahoo_daily",
+        "price": 7182.7798,
+        "change_pct": -0.254,
+        "asof": "2026-11-25",
+        "source_url": "https://finance.yahoo.com/quote/%5EGSPC/history/"
+      },
+      {
+        "name": "Nasdaq",
+        "symbol": "^IXIC",
+        "status": "unofficial_yahoo_daily",
+        "price": 23585.8008,
+        "change_pct": -0.622,
+        "asof": "2026-11-25",
+        "source_url": "https://finance.yahoo.com/quote/%5EIXIC/history/"
+      },
+      {
+        "name": "SOX",
+        "symbol": "^SOX",
+        "status": "unofficial_yahoo_daily",
+        "price": 8774.8604,
+        "change_pct": -0.653,
+        "asof": "2026-11-25",
+        "source_url": "https://finance.yahoo.com/quote/%5ESOX/history/"
+      },
+      {
+        "name": "US 10Y yield",
+        "symbol": "^TNX",
+        "status": "unofficial_yahoo_daily",
+        "price": 4.848,
+        "change_pct": -1.142,
+        "asof": "2026-11-25",
+        "source_url": "https://finance.yahoo.com/quote/%5ETNX/history/"
+      },
+      {
+        "name": "USD/KRW",
+        "symbol": "KRW=X",
+        "status": "unofficial_yahoo_daily",
+        "price": 1341.08,
+        "change_pct": -0.141,
+        "asof": "2026-11-27",
+        "source_url": "https://finance.yahoo.com/quote/KRW%3DX/history/"
+      }
+    ],
+    "news": [
+      {
+        "title": "Nvidia Halts AI Server Shipments to Four Southeast Asian Countries as U.S. Tightens Rules to Close Loophole on Transshipment - BigGo Finance",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB6bWlha0tmOGk5dWdRbVdYSkhyQVhuaGdlWFVnMktmNzVJXzlybEtJZ09RU2N5YWNEbFZNZ3lkc1dUMHVGVUd5VUUzTS1LV1RISjhjNjlnVUxtcDdmT0l4dzdwN1NUenlmWmZuWXBVUzZpLTRGblE?oc=5",
+        "published": "Fri, 27 Nov 2026 02:05:00 GMT"
+      },
+      {
+        "title": "NVIDIA Corporation (NVDA) stock price, news, quote and history - Yahoo Finance UK",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE81OEFKQTktenlhclpBTlVtWEJqNVpKOVNWNlRaNlRDRnR0dHRielpfZXdtR0pXcUcyNDN1WTlzOWVrWXZTNVhTbEVIOUxEaklxVWc?oc=5",
+        "published": "Thu, 26 Nov 2026 14:45:30 GMT"
+      },
+      {
+        "title": "Nvidia, Dell and Supermicro Halt AI Server Shipments Amid New US Chip Export Controls - Coinpaper",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONF85SUh3R2x0TlBfdGZpZDh1c3FQWW1OYjRwUm9mT2pUNzhVaGI0c25NXzlHNklvbHJBQ252Si1fNUV2eWJJTlZsZk1DWkE1YTN2bGgtN2xKazliN1B6a0hVYVpsS0VQb2VWWE0xblN6RTdNeThvVk5PeUhyZHJFMWw1OFQyYjRWTkpaSF9aRjR1ODJRbHRKY2F2ZXhNcVFCaG1IVVBmbFdab213SDctOVJR?oc=5",
+        "published": "Thu, 26 Nov 2026 16:35:20 GMT"
+      },
+      {
+        "title": "Nvidia's Monopoly Cracks with AI Shift to AMD, In-House Chips - 조선일보",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUnE0QmdXUC1rWmpiMkY3Q1lTU2k0ZWpjem1rcGcteXFfTTdETVMxZldyWjFBNHRxV3ZWX0JoZ1YxbjFQZUxqakNTc2xEdElZM3R6eC1xdVdvOUtJa2Nib3NuUjNNLVh5V1VaOUpZTG1CQ040bFhDVDlFdGNXaVJ4N2gwTmxLdkd3?oc=5",
+        "published": "Thu, 26 Nov 2026 04:45:56 GMT"
+      },
+      {
+        "title": "U.S. Blocks China's Indirect Access to AI Semiconductors... Is Southeast Asia's Data Center Market Set to Be Reshaped? (Comprehensive) - 아시아경제",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1IOFVtVkVUcmtVZk9RRlRJOERtQ2xzbEQzZnZVZjdOMDgtbTlmYkYyU0xTUkg2aW1sa1lHaFF6bnB4X3gwTFcxaTFyTEFxUWhSVHVVZzNLTmU0dWx3X1hrT3pVRnE?oc=5",
+        "published": "Thu, 26 Nov 2026 23:12:03 GMT"
+      }
+    ],
+    "generated_at": "2026-11-27T02:45:42.037647+00:00"
+  },
+  {
     "date": "2026-11-25",
     "title": "2026-11-25 ETF 시장 점검",
     "summary": "ETF 10종 중 7종의 비공식 일별 시세 확인. 미확인 수치는 표시하지 않습니다. 뉴스 헤드라인은 검증된 인과관계가 아닙니다.",
